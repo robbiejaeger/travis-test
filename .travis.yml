@@ -7,3 +7,4 @@ before_script:
   - psql -c 'CREATE DATABASE travis_test;' -U postgres
 notifications:
   email: false
+
